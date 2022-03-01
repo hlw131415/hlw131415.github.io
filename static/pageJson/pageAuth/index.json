@@ -1,0 +1,570 @@
+
+[
+  {
+    "componentPath": "/systemManage/areaManage/index",
+    "name": "区域管理",
+    "children": [
+      {
+        "authName": "新增场站",
+        "authPath": "addNew",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "删除",
+        "authPath": "delete",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "编辑",
+        "authPath": "edit",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManage/channelManage/index",
+    "name": "通道管理",
+    "children": [
+      {
+        "authName": "添加通道",
+        "authPath": "addChannel",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "查看通道",
+        "authPath": "lookChannel",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "编辑通道",
+        "authPath": "editChannel",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "删除通道",
+        "authPath": "deleteChannel",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManage/userManage/index",
+    "name": "用户管理",
+    "children": [
+      {
+        "authName": "添加用户",
+        "authPath": "addUser",
+        "authType": 3,
+        "isVerify": true,
+        "special": false,
+        "isVisible": true
+      },
+      {
+        "authName": "查看",
+        "authPath": "lookUser",
+        "special": false,
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "编辑",
+        "authPath": "editUser",
+        "special": false,
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "重置密码",
+        "authPath": "resetPassword",
+        "special": false,
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "锁定用户",
+        "authPath": "lockUser",
+        "special": false,
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "删除",
+        "authPath": "deleteUser",
+        "special": false,
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManage/funConfig/index",
+    "name": "功能模块配置",
+    "children": [
+      {
+        "authName": "更新功能模块",
+        "special": false,
+        "authPath": "updateConfig",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManage/authConfig/index",
+    "name": "功能权限配置",
+    "children": [
+      {
+        "authName": "配置权限",
+        "special": false,
+        "authPath": "diyConfig",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManage/roleConfig/index",
+    "name": "角色管理",
+    "children": [
+      {
+        "authName": "添加角色",
+        "authPath": "addRole",
+        "special": false,
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "查看角色",
+        "authPath": "lookRole",
+        "authType": 3,
+        "isVerify": true,
+        "special": false,
+        "isVisible": true
+      },
+      {
+        "authName": "编辑角色",
+        "authPath": "editRole",
+        "authType": 3,
+        "isVerify": true,
+        "special": false,
+        "isVisible": true
+      },
+      {
+        "authName": "删除角色",
+        "authPath": "deleteRole",
+        "authType": 3,
+        "special": false,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManage/onlineUserManage/index",
+    "name": "在线用户管理",
+    "children": [
+      {
+        "authName": "强制下线",
+        "authPath": "forceOffline",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManual/manualManage/index",
+    "name": "人工补采",
+    "children": [
+      {
+        "authName": "编辑",
+        "authPath": "edit",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "查看",
+        "authPath": "look",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "删除",
+        "authPath": "delete",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "添加",
+        "authPath": "add",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManual/manualEmergency/index",
+    "name": "人工应急",
+    "children": [
+      {
+        "authName": "查看",
+        "authPath": "look",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManual/alarmHistory/index",
+    "name": "报警历史",
+    "children": [
+      {
+        "authName": "编辑",
+        "authPath": "edit",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManual/runtimeConfigManage/index",
+    "name": "参数配置",
+    "children": [
+      {
+        "authName": "查看参数",
+        "authPath": "look",
+        "authType": 3,
+        "isVerify": true,
+        "special": false,
+        "isVisible": true
+      },
+      {
+        "authName": "编辑参数",
+        "authPath": "edit",
+        "special": false,
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManual/nameManage/index",
+    "name": "字典管理",
+    "children": [
+      {
+        "authName": "添加字典",
+        "authPath": "addName",
+        "authType": 3,
+        "isVerify": true,
+        "special": false,
+        "isVisible": true
+      },
+      {
+        "authName": "查看字典",
+        "authPath": "lookName",
+        "special": false,
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "编辑字典",
+        "authPath": "editName",
+        "special": false,
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "删除字典",
+        "authPath": "deleteName",
+        "special": false,
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManual/cameraManage/index",
+    "name": "监控相机管理",
+    "children": [
+      {
+        "authName": "编辑",
+        "authPath": "edit",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "查看",
+        "authPath": "look",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "删除",
+        "authPath": "delete",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "添加",
+        "authPath": "add",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManual/manageRule/index",
+    "name": "业务时序管理",
+    "children": [
+      {
+        "authName": "编辑",
+        "authPath": "edit",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "查看",
+        "authPath": "look",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "删除",
+        "authPath": "delete",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "添加",
+        "authPath": "add",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManual/remoteChannel/index",
+    "name": "远程通道管理",
+    "children": [
+      {
+        "authName": "编辑",
+        "authPath": "edit",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "版本管理",
+        "authPath": "versionControl",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "远程升级",
+        "authPath": "update",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManual/message/index",
+    "name": "通讯报文查询",
+    "children": [
+      {
+        "authName": "查看详情",
+        "authPath": "look",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/systemManual/sysHistory/index",
+    "name": "操作日志查询",
+    "children": [
+      {
+        "authName": "查看详情",
+        "authPath": "look",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/query/channelRecord/index",
+    "name": "通道记录统计",
+    "children": [
+      {
+        "authName": "查看",
+        "authPath": "look",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/query/roadRecordManage/index",
+    "name": "通行记录查询",
+    "children": [
+      {
+        "authName": "查看",
+        "authPath": "look",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/query/entryExit/index",
+    "name": "出入境记录统计",
+    "children": [
+      {
+        "authName": "下载excel",
+        "authPath": "download",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/query/channelStatistics/index",
+    "name": "通道记录统计",
+    "children": [
+      {
+        "authName": "下载excel",
+        "authPath": "download",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/query/delayCarStatistics/index",
+    "name": "滞留车辆统计",
+    "children": [
+      {
+        "authName": "下载excel",
+        "authPath": "download",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/query/platformLog/index",
+    "name": "运行日志查询",
+    "children": [
+      {
+        "authName": "下载",
+        "authPath": "download",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/monitor/watchChannel/index", 
+    "name": "通道实时监控",
+    "children": [
+      {
+        "authName": "查看",
+        "authPath": "look",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/monitor/watchEquipment/index", 
+    "name": "设备实时监控",
+    "children": [
+      {
+        "authName": "操作",
+        "authPath": "edit",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "componentPath": "/monitor/hengqin/index", 
+    "name": "通道实时验放",
+    "children": [
+      {
+        "authName": "退车",
+        "authPath": "back",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "开闸",
+        "authPath": "openDoor",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "authName": "人工纠正",
+        "authPath": "redirect",
+        "authType": 3,
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  }
+]
+

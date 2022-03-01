@@ -1,1 +1,106 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><link rel=icon href=/favicon.ico><title>课堂答疑系统</title><link href=/static/css/app.40de3fa9.css rel=preload as=style><link href=/static/css/chunk-elementUI.68c70ad5.css rel=preload as=style><link href=/static/css/chunk-libs.3dfb7769.css rel=preload as=style><link href=/static/js/app.20b8a353.js rel=preload as=script><link href=/static/js/chunk-elementUI.22d86e0f.js rel=preload as=script><link href=/static/js/chunk-libs.2a7f6f52.js rel=preload as=script><link href=/static/css/chunk-elementUI.68c70ad5.css rel=stylesheet><link href=/static/css/chunk-libs.3dfb7769.css rel=stylesheet><link href=/static/css/app.40de3fa9.css rel=stylesheet></head><body><noscript><strong>We're sorry but 课堂答疑系统 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script>(function(e){function r(r){for(var n,l,i=r[0],a=r[1],f=r[2],c=0,s=[];c<i.length;c++)l=i[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in a)Object.prototype.hasOwnProperty.call(a,n)&&(e[n]=a[n]);p&&p(r);while(s.length)s.shift()();return u.push.apply(u,f||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var a=t[i];0!==o[a]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={runtime:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){var r=e&&e.__esModule?function(){return e["default"]}:function(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="/";var i=window["webpackJsonp"]=window["webpackJsonp"]||[],a=i.push.bind(i);i.push=r,i=i.slice();for(var f=0;f<i.length;f++)r(i[f]);var p=a;t()})([]);</script><script src=/static/js/chunk-elementUI.22d86e0f.js></script><script src=/static/js/chunk-libs.2a7f6f52.js></script><script src=/static/js/app.20b8a353.js></script></body></html>
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>智慧货场管理平台</title><style>#appLoading.demo6 {
+      width: 70px;
+      height: 70px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      z-index: 30;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #appLoading .demo6-x {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+      border: 2px solid #2196F3;
+      border-top-color: transparent;
+      border-bottom-color: transparent;
+      -webkit-animation: "aniSix-x" 1s 0.2s infinite;
+      animation: "aniSix-x" 1s 0.2s infinite;
+    }
+
+    #appLoading .demo6-y {
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      background-color: #2196F3;
+      -webkit-animation: "aniSix-y" 1s 0.2s infinite;
+      animation: "aniSix-y" 1s 0.2s infinite;
+    }
+
+    @-webkit-keyframes aniSix-x {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+
+      50% {
+        -webkit-transform: rotate(180deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+
+    @keyframes aniSix-x {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      50% {
+        transform: rotate(180deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @-webkit-keyframes aniSix-y {
+      0% {
+        -webkit-transform: scale(0.1);
+      }
+
+      50% {
+        -webkit-transform: scale(1);
+      }
+
+      100% {
+        -webkit-transform: scale(0.1);
+      }
+    }
+
+    @keyframes aniSix-y {
+      0% {
+        transform: scale(0.1);
+      }
+
+      50% {
+        transform: scale(1);
+      }
+
+      100% {
+        transform: scale(0.1);
+      }
+    }</style><link href=/static/css/app.4d1ab025a2d3.css rel=stylesheet></head><body><div class=demo6 id=appLoading><div class=demo6-x><div class=demo6-y></div></div></div><div id=app></div><script>function setFontSize() {
+        let html = document.getElementsByTagName("html")[0]
+        let oWidth = document.body.clientWidth || document.documentElement.clientWidth
+        // 最低宽度1300
+        oWidth = oWidth < 1300 ? 1300 : oWidth
+        html.style.fontSize = 16 * oWidth / 1920 + "px"
+        // document.documentElement.style.fontSize = 16 * document.documentElement.clientWidth / 1920 + 'px'
+    }
+    window.onload = function () {
+      setFontSize()
+    }
+    window.onresize = function () {
+      setFontSize()
+    }</script><script src=/static/js/app.223c4600a1b341eccfff.js></script></body></html>

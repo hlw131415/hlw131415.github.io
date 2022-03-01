@@ -1,0 +1,270 @@
+
+[
+  {
+    "seqNo": 1,
+    "authName": "主页",
+    "alone": true,
+    "componentPath": "/layout/layout",
+    "authPath": "/index",
+    "authType": 1,
+    "icon": "icon-shouye",
+    "isVerify": true,
+    "isVisible": true,
+    "children": [
+      {
+        "seqNo": 11,
+        "authName": "首页",
+        "componentPath": "/index/mainIndex",
+        "authPath": "/index",
+        "authType": 2,
+        "icon": "icon-tubiao15",
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "seqNo": 2,
+    "authName": "企业管理",
+    "componentPath": "/layout/layout",
+    "authPath": "/",
+    "authType": 1,
+    "icon": "icon-qiyeguanli2",
+    "isVerify": true,
+    "isVisible": true,
+    "children": [
+      {
+        "seqNo": 27,
+        "authName": "企业信息管理",
+        "componentPath": "/systemManage/componyManage/index",
+        "authPath": "/componyManage",
+        "authType": 2,
+        "icon": "icon-4",
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "seqNo": 27,
+        "authName": "企业注册关联",
+        "componentPath": "/systemManage/componeyRelation/index",
+        "authPath": "/componeyRelation",
+        "authType": 2,
+        "icon": "icon-4",
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "authPath": "/",
+    "authName": "疫情防控",
+    "componentPath":  "/layout/layout",
+    "isVerify": true,
+    "isVisible": true,
+    "authType": 1,
+    "icon": "icon-fangkong",
+    "seqNo": 4,
+    "children": [
+      {
+        "seqNo": 41,
+        "authName": "集装箱内壁消杀管理",
+        "componentPath": "/epidemicControl/disinfect/index",
+        "authPath": "/disinfect",
+        "authType": 2,
+        "icon": "icon-Home_icon_rengongbul-copy",
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "seqNo": 41,
+        "authName": "采样记录管理",
+        "componentPath": "/epidemicControl/nucleinPage/index",
+        "authPath": "/nucleinPage",
+        "authType": 2,
+        "icon": "icon-Home_icon_rengongbul-copy",
+        "isVerify": true,
+        "isVisible": true,
+        "requestPath": ["/epc/nucleic/getEpcNucleicAcidListByPage"]
+      },
+      {
+        "seqNo": 42,
+        "authName": "全流程监控",
+        "componentPath": "/epidemicControl/disinfect/index",
+        "authPath": "/processMonitor",
+        "authType": 2,
+        "icon": "icon-Home_icon_rengongbul-copy",
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "seqNo": 44,
+        "authName": "货车消杀管理",
+        "componentPath": "/epidemicControl/truckDisinfect/index",
+        "authPath": "/truckDisinfect",
+        "authType": 2,
+        "icon": "icon-Home_icon_rengongbul-copy",
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "seqNo": 45,
+        "authName": "人员作业分区管理",
+        "componentPath": "/epidemicControl/disinfect/index",
+        "authPath": "/menPartition",
+        "authType": 2,
+        "icon": "icon-Home_icon_rengongbul-copy",
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "authPath": "/",
+    "authName": "运维管理",
+    "componentPath":  "/layout/layout",
+    "isVerify": true,
+    "isVisible": true,
+    "authType": 1,
+    "icon": "icon-map-site",
+    "seqNo": 4,
+    "children": [
+      {
+        "authPath": "/Preinspection",
+        "authName": "预检信息查询",
+        "componentPath": "/systemManual/runtimeConfigManage/index",
+        "isVerify": true,
+        "isVisible": true,
+        "authType": 2,
+        "special": false,
+        "icon": "icon-xitongcanshupeizhi",
+        "seqNo": 44
+      },
+      {
+        "seqNo": 46,
+        "authName": "系统监控",
+        "componentPath": "/systemManual/cameraManage/index",
+        "authPath": "/systemMonitor",
+        "authType": 2,
+        "icon": "icon-24gf-camera",
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "seqNo": 6,
+    "authName": "信息发布",
+    "componentPath": "/layout/layout",
+    "authPath": "/",
+    "authType": 1,
+    "icon": "icon-tongjifenxi-xiangmubiaogetongji",
+    "isVerify": true,
+    "isVisible": true,
+    "children": [
+      {
+        "seqNo": 62,
+        "authName": "历史发布记录",
+        "componentPath": "/query/infoPushRecord/index",
+        "authPath": "/infoPushRecord",
+        "authType": 2,
+        "icon": "icon-guozhajiluchaxun",
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "seqNo": 62,
+        "authName": "LED屏管理",
+        "componentPath": "/query/ledScreen/index",
+        "authPath": "/ledScreen",
+        "authType": 2,
+        "icon": "icon-guozhajiluchaxun",
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "seqNo": 7,
+    "authName": "实时监控",
+    "componentPath": "/layout/layout",
+    "authPath": "/",
+    "authType": 1,
+    "icon": "icon-jiankong",
+    "isVerify": true,
+    "isVisible": true,
+    "children": [
+      {
+        "seqNo": 71,
+        "authName": "滞留车辆实时监控",
+        "componentPath": "/monitor/watchCar/index",
+        "authPath": "/watchCar",
+        "authType": 2,
+        "icon": "icon-tingchechang",
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "seqNo": 72,
+        "authName": "通道实时监控",
+        "componentPath": "/monitor/watchHengqinChannel/index",
+        "authPath": "/watchChannel",
+        "authType": 2,
+        "icon": "icon-z_nav_icon_cljk_nor",
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "seqNo": 73,
+        "authName": "设备实时监控",
+        "componentPath": "/monitor/watchEquipment/index",
+        "authPath": "/watchEquipment",
+        "authType": 2,
+        "icon": "icon-shebei",
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "seqNo": 8,
+    "authName": "费用管理",
+    "componentPath": "/layout/layout",
+    "authPath": "/",
+    "authType": 1,
+    "icon": "icon-feiyongguanli",
+    "isVerify": true,
+    "isVisible": true,
+    "children": [
+      {
+        "seqNo": 74,
+        "authName": "费用清单汇总",
+        "componentPath": "/costManage/billCollection/index",
+        "authPath": "/billCollection",
+        "authType": 2,
+        "icon": "icon-tingchechang",
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "seqNo": 75,
+        "authName": "费用清单明细",
+        "componentPath": "/costManage/bill/index",
+        "authPath": "/bill",
+        "authType": 2,
+        "icon": "icon-z_nav_icon_cljk_nor",
+        "isVerify": true,
+        "isVisible": true
+      },
+      {
+        "seqNo": 76,
+        "authName": "费用配置管理",
+        "componentPath": "/costManage/configure/index",
+        "authPath": "/configure",
+        "authType": 2,
+        "icon": "icon-shebei",
+        "isVerify": true,
+        "isVisible": true
+      }
+    ]
+  }
+]

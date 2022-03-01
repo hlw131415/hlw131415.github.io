@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[125],{"1fMr":function(e,n,t){"use strict";t.r(n);var r={name:"commerViews"},i=t("KHd+"),s=Object(i.a)(r,(function(){var e=this.$createElement,n=this._self._c||e;return n("div",[n("router-view")],1)}),[],!1,null,"063e24a3",null);n.default=s.exports}}]);
